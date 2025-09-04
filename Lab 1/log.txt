@@ -1,0 +1,19 @@
+
+# Lab 1 Log
+
+Setting up SSH on Pi
+1. On Pi Terminal
+    sudo raspi-config
+    ifconfig    // for ip 
+2. On Own Terminal
+    ssh pi@127.0.0.1
+    ssh 334CES-F@127.0.0.1
+    // getting this error: ssh: connect to host 127.0.0.1 port 22: Connection refused
+3. On Pi Terminal
+    hostname -I     // for ip
+4. On Own Terminal
+    ssh 334CES-F@10.65.40.139
+    // error: ssh: connect to host 10.65.40.139 port 22: Operation timed out
+5. SOLUTION: Conenct Pi to Yalewireless and Laptop on YaleSecure
+6. On Own terminal: ssh student334@10.67.75.145
+
